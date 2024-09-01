@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.*
+  # - cmake=3.26.4  # We use the system-wide cmake
+  - pip>=23
+  - pip:
+      - conan==2.7.*
+      # - pre-commit==3.7.0 # We do not use pre-commit for now
