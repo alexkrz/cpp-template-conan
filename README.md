@@ -14,18 +14,30 @@ The conan example is taken from <https://docs.conan.io/2/tutorial/consuming_pack
 
     The conan profile will be stored under `/Users/<user>/.conan2/profiles/default`.
 
-2. Install conan packages
+- Build Release
 
-    ```bash
-    conan install . --output-folder=build --build=missing
-    ```
+    1. Install conan packages
 
-3. Build project using CMake
+        ```bash
+        conan install . --output-folder=build --build=missing
+        ```
 
-    ```bash
-    cmake --preset conan-release
-    ```
+    2. Build project using CMake
 
-## Open Questions
+        ```bash
+        cmake --preset conan-release
+        ```
 
-1. What does `CMakeUserPresets.json` do?
+- Build Debug
+
+    1. Install conan packages
+
+        ```bash
+        conan install . -s build_type=Debug --output-folder=build --build=missing
+        ```
+
+    2. Build project using CMake
+
+        ```bash
+        cmake --preset conan-debug
+        ```
