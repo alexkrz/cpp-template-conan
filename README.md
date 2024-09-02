@@ -52,4 +52,4 @@ The conan example is taken from <https://docs.conan.io/2/tutorial/consuming_pack
 
 ## Todos
 
-[ ] Currently cannot debug using LLDB on MacOS. This is probably related to this issue: <https://github.com/microsoft/vscode-cmake-tools/issues/3908>
+- [ ] Currently cannot debug using LLDB on MacOS. This is probably related to this issue: <https://github.com/microsoft/vscode-cmake-tools/issues/3908>
