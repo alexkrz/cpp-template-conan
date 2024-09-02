@@ -14,30 +14,38 @@ The conan example is taken from <https://docs.conan.io/2/tutorial/consuming_pack
 
     The conan profile will be stored under `/Users/<user>/.conan2/profiles/default`.
 
-- Build Release
+<details>
+  <summary>Build Release</summary>
 
-    1. Install conan packages
+  1. Install conan packages
 
-        ```bash
-        conan install . --output-folder=build --build=missing
-        ```
+      ```bash
+      conan install . --output-folder=build --build=missing
+      ```
 
-    2. Build project using CMake
+  2. Configure and build project using CMake
 
-        ```bash
-        cmake --preset conan-release
-        ```
+      ```bash
+      cmake --preset conan-release
+      cmake --build --preset conan-release
+      ```
 
-- Build Debug
+</details>
 
-    1. Install conan packages
+<details>
+  <summary>Build Debug</summary>
 
-        ```bash
-        conan install . -s build_type=Debug --output-folder=build --build=missing
-        ```
+  1. Install conan packages
 
-    2. Build project using CMake
+      ```bash
+      conan install . -s build_type=Debug --output-folder=build --build=missing
+      ```
 
-        ```bash
-        cmake --preset conan-debug
-        ```
+  2. Configure and build project using CMake
+
+      ```bash
+      cmake --preset conan-debug
+      cmake --build --preset conan-debug
+      ```
+
+</details>
