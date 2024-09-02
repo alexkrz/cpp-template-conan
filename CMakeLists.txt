@@ -15,7 +15,7 @@ message(STATUS "    libraries: ${OpenCV_LIBS}")
 message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 
 # Add executable target
-add_executable(opencv_example src/main.cpp)
+add_executable(example src/example.cpp)
 
 # Link OpenCV libraries
-target_link_libraries(opencv_example ${OpenCV_LIBS})
+target_link_libraries(example ${OpenCV_LIBS})
