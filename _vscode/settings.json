@@ -1,0 +1,7 @@
+{
+    "cmake.debugConfig": {
+        "args": [
+            "../data/lenna.png"
+        ]
+    }
+}
