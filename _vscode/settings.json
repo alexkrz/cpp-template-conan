@@ -4,7 +4,7 @@
     "cmake.configureArgs": [
         "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/build/conan/conan_toolchain.cmake",
         "-DCMAKE_BUILD_TYPE=Debug",
-        "-DCMAKE_INSTALL_PREFIX=${workspaceFolder}/install_macos_arm",
+        // "-DCMAKE_INSTALL_PREFIX=${workspaceFolder}/install_macos_arm",
         // "-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON",
     ],
     "cmake.debugConfig": {
