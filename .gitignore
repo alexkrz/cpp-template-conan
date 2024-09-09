@@ -8,4 +8,4 @@
 /data/
 
 # CMakePresets
-CMakeUserPresets.json
+/CMakeUserPresets.json

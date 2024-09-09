@@ -20,7 +20,7 @@ The conan example is taken from <https://docs.conan.io/2/tutorial/consuming_pack
   1. Install conan packages
 
       ```bash
-      conan install . --output-folder=build --build=missing
+      conan install . --output-folder=build/conan --build=missing
       ```
 
   2. Configure and build project using CMake
@@ -38,7 +38,7 @@ The conan example is taken from <https://docs.conan.io/2/tutorial/consuming_pack
   1. Install conan packages
 
       ```bash
-      conan install . -s build_type=Debug --output-folder=build --build=missing
+      conan install . -s build_type=Debug --output-folder=build/conan --build=missing
       ```
 
   2. Configure and build project using CMake
