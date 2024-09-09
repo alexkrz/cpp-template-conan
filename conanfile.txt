@@ -1,5 +1,5 @@
 [requires]
-opencv/4.10.0
+opencv/4.5.5
 [options]
 opencv*:with_tiff=False
 opencv*:with_webp=False
